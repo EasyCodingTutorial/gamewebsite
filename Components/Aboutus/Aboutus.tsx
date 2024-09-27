@@ -6,7 +6,7 @@ export const Aboutus = () => {
     return (
         <div className={styles.Aboutus}>
             <div>
-                <img src="/assets/About.jpg" alt="" />
+                <img src="/assets/about.jpg" alt="" />
             </div>
             <div className={styles.Content}>
                 <h6>Join The Community</h6>
