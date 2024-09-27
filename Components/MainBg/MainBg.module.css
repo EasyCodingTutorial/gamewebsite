@@ -1,0 +1,87 @@
+.MainBg {
+    position: relative;
+}
+
+.MainBg img {
+    height: 85vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.Content {
+    position: absolute;
+    padding: 20px;
+    bottom: 30px;
+}
+
+.Content h6 {
+    font-weight: 800;
+    font-size: 30px;
+    color: #908a8a;
+}
+
+.Content h5 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+@media(max-width:950px) {
+
+    .MainBg img {
+        height: 70vh;
+    }
+
+    .Content h6 {
+        font-weight: 800;
+        font-size: 20px;
+        color: #908a8a;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:650px) {
+
+    .MainBg img {
+        height: 50vh;
+    }
+
+    .Content h6 {
+        font-weight: 800;
+        font-size: 18px;
+        color: #908a8a;
+    }
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width:478px) {
+
+    .MainBg img {
+        height: 50vh;
+    }
+
+
+    .Content h5 {
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+}

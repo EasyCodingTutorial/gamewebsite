@@ -1,0 +1,59 @@
+.GamingUniverse {
+    margin-block: 10px;
+}
+
+.Box {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--boxShadow);
+    padding: 20px;
+    margin-block: 10px;
+}
+
+.Box .Content {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Box div h6 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    margin-block: 10px;
+}
+
+@media(max-width:1200px) {
+    .Box {
+        flex-direction: column;
+    }
+
+    .Box .Content {
+        width: 100%;
+    }
+
+    .Box img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:900px) {
+    .Box img {
+        height: 150px;
+    }
+}
+
+@media(max-width:600px) {
+    .Box img {
+        height: 100px;
+    }
+}

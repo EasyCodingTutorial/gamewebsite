@@ -1,0 +1,64 @@
+.Features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Main {
+    flex-basis: calc(25% - 10px);
+    height: 250px;
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border: 0.1px dashed #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.Main:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.Box {
+    text-align: center;
+}
+
+.Box .Icon {
+    font-size: 40px;
+}
+
+.Box h6 {
+    font-weight: 800;
+    font-size: 18px;
+    margin-block: 5px;
+}
+
+.Box .Desc {
+    font-size: 11px;
+    color: #ccc;
+}
+
+@media(max-width:1200px) {
+
+    .Main {
+        flex-basis: calc(33.33% - 10px);
+    }
+
+}
+
+@media(max-width:900px) {
+
+    .Main {
+        flex-basis: calc(50% - 10px);
+    }
+
+}
+
+@media(max-width:600px) {
+
+    .Main {
+        flex-basis: calc(100%);
+    }
+
+}
