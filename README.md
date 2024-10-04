@@ -25,7 +25,7 @@ Follow these steps to get the project up and running on your local machine:
 ## Contributions
 Contributions are welcome! Feel free to open issues for any bugs, feature requests, or suggestions.
 
-
+ 
 
 ## Learn By Watching Video ▶️
 [![Watch Demo Video](https://img.youtube.com/vi/agUmDwJ7ENE/maxresdefault.jpg)](https://www.youtube.com/watch?v=agUmDwJ7ENE)
